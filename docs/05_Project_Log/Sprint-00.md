@@ -29,3 +29,36 @@ Business Model
 完成ADR
 
 完成Meeting
+
+
+Step 01
+Project Kickoff
+
+Step 02
+Business Position Confirmed
+
+Step 03
+Official Website Strategy
+
+Step 04
+Inquiry First Strategy
+
+Step 05
+Catalog First Strategy
+
+Step 06
+Lead Management
+
+Step 07
+Requirement Analysis
+
+Step 08
+Business Architecture
+
+Step 09
+Domain Model
+
+Step 10
+Information Architecture
+
+Sprint 0 Completed
