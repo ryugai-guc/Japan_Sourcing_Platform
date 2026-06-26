@@ -92,21 +92,21 @@ Category
 
 ## Customer Journey
 
- Lead
-   │
-   ▼
- Inquiry
-  │
-  ▼
- Quotation
-  │
-  ▼
- Purchase Order
-  │
-  ▼
- Shipment
-  │
-  ▼
+ Lead     
+   │  
+   ▼  
+ Inquiry  
+  │  
+  ▼   
+ Quotation     
+  │   
+  ▼   
+ Purchase Order   
+  │   
+  ▼   
+ Shipment   
+  │   
+  ▼   
  Customer
 
 ```

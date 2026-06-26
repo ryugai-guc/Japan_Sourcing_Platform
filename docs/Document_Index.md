@@ -1,20 +1,20 @@
 # Document_Index
 
-Project
+## Project
 
 Japan Sourcing Platform (JSP)
 
-Version
+**Version**
 
-V1.0
+V1.1
 
-Status
+**Status**
 
 Approved
 
-Last Update
+**Last Update**
 
-2026-06-26
+2026-06-27
 
 ---
 
@@ -24,7 +24,7 @@ This document is the master index of all project documents.
 
 It provides a unified reference for document identification, location, status, and version.
 
-All newly created documents shall be registered here.
+All newly created documents shall be registered here before becoming part of the project baseline.
 
 ---
 
@@ -36,6 +36,8 @@ All newly created documents shall be registered here.
 | BA-0001  | Business_Architecture.md    | Architecture | 1.0     | Approved |
 | BA-0002  | Domain_Model.md             | Architecture | 1.0     | Approved |
 | BA-0003  | Information_Architecture.md | Architecture | 1.0     | Approved |
+| BA-0004  | Data_Flow.md                | Architecture | 1.0     | Approved |
+| BA-0005  | Domain_Model.md             | Architecture | 1.0     | Draft    |
 | SRS-0000 | Vision.md                   | Requirement  | 1.0     | Approved |
 | SRS-0001 | Project_Overview.md         | Requirement  | 1.0     | Approved |
 | SRS-0002 | Business_Model.md           | Requirement  | 1.0     | Approved |
@@ -51,34 +53,34 @@ All newly created documents shall be registered here.
 | MOM-0001 | Kickoff.md                  | Meeting      | 1.0     | Approved |
 | MOM-0002 | System_Design.md            | Meeting      | 1.0     | Approved |
 | MOM-0003 | User_Role_and_Lead.md       | Meeting      | 1.0     | Approved |
-| LOG-0001 | Sprint-00.md                | Project Log  | Draft   |          |
-| DOC-0001 | Glossary.md                 | Reference    | Draft   |          |
+| LOG-0001 | Sprint-00.md                | Project Log  | 1.0     | Draft    |
+| DOC-0001 | Glossary.md                 | Reference    | 1.0     | Draft    |
 
 ---
 
 # Document Categories
 
-Architecture
+## Architecture
 
 * BA (Business Architecture)
 
-Requirement
+## Requirement
 
 * SRS (Software Requirement Specification)
 
-Architecture Decision
+## Architecture Decision
 
 * ADR (Architecture Decision Record)
 
-Meeting
+## Meeting
 
 * MOM (Minutes of Meeting)
 
-Project Log
+## Project Log
 
 * LOG
 
-Reference
+## Reference
 
 * DOC
 
@@ -86,7 +88,7 @@ Reference
 
 # Version Rules
 
-Major Version
+## Major Version
 
 Increment when document structure changes significantly.
 
@@ -94,7 +96,7 @@ Example:
 
 1.0 → 2.0
 
-Minor Version
+## Minor Version
 
 Increment when requirements are added or updated.
 
@@ -102,7 +104,7 @@ Example:
 
 1.0 → 1.1
 
-Patch Version
+## Patch Version
 
 Increment when correcting text or formatting only.
 
@@ -114,122 +116,123 @@ Example:
 
 # Status Definition
 
-Draft
-
-Document is under preparation.
-
-Review
-
-Document is under discussion.
-
-Approved
-
-Document is accepted as baseline.
-
-Deprecated
-
-Document is no longer used.
-
-Archived
-
-Document retained for historical reference only.
+| Status     | Description                                     |
+| ---------- | ----------------------------------------------- |
+| Draft      | Document is under preparation                   |
+| Review     | Document is under discussion                    |
+| Approved   | Document is accepted as baseline                |
+| Deprecated | Document is no longer used                      |
+| Archived   | Document retained for historical reference only |
 
 ---
 
 # Naming Convention
 
-Document ID
+## Document ID
 
 CATEGORY-XXXX
 
-Examples
+Examples:
 
-BA-0001
+* BA-0001
+* SRS-0005
+* ADR-0003
+* MOM-0002
+* LOG-0001
 
-SRS-0005
+## File Name
 
-ADR-0003
-
-MOM-0002
-
-LOG-0001
-
-File Name
-
-<Document_Name>.md
+`<Document_Name>.md`
 
 Use PascalCase with underscore separators.
 
-Example
+Examples:
 
-Business_Architecture.md
-
-Lead_Management.md
-
-Catalog_Management.md
+* Business_Architecture.md
+* Lead_Management.md
+* Catalog_Management.md
 
 ---
 
 # Maintenance Rules
 
-1. Never delete an approved document.
-
-2. Never rename an approved document.
-
+1. Never delete an Approved document.
+2. Never rename an Approved document.
 3. Upgrade Version instead of changing filenames.
-
-4. Register every new document in this index.
-
+4. Register every new document in this index before it becomes part of the project baseline.
 5. Archive obsolete documents instead of removing them.
-
 6. Every document shall contain:
 
-* Document ID
-* Version
-* Status
-* Last Update
+   * Document ID
+   * Version
+   * Status
+   * Last Update
+7. **Document ID shall never be reused.**
 
 ---
 
 # Sprint Baseline
 
-Sprint 0
+## Sprint 0
 
 Business Baseline
 
-Status
+**Status**
+
+Completed
+
+### Baseline Documents
+
+* Business Architecture
+* Requirement Specification
+* Architecture Decisions
+* Meeting Minutes
+* Project Log
+* Glossary
+
+---
+
+## Sprint 1
+
+Business Object Design
+
+**Status**
 
 In Progress
 
-Baseline Documents
+**Planned Business Objects**
 
-Business Architecture
+* Supplier
+* Product
+* Brand
+* Category
+* Catalog
+* Lead
+* Inquiry
+* Quotation
+* Purchase Order
+* Shipment
 
-Requirement Specification
-
-Architecture Decisions
-
-Meeting Minutes
-
-Project Log
-
-Glossary
+> Note: Business Object (OBJ) documents will be registered after each document reaches Version 1.0.
 
 ---
 
 # Document Freeze Policy
 
-After a document reaches Approved status:
+After a document reaches **Approved** status:
 
-- Document ID shall not be changed.
-- File name shall not be changed.
-- Directory location shall not be changed.
-- Only Version may be updated.
+* Document ID shall not be changed.
+* File name shall not be changed.
+* Directory location shall not be changed.
+* Only Version may be updated.
 
 Any major design changes shall be introduced through a new document or an ADR, rather than by renaming or restructuring existing documents.
 
+---
+
 # Revision History
 
-| Version | Date       | Description            |
-| ------- | ---------- | ---------------------- |
-| 1.0     | 2026-06-26 | Initial Document Index |
+| Version | Date       | Description                                               |
+| ------- | ---------- | --------------------------------------------------------- |
+| 1.0     | 2026-06-26 | Initial Document Index                                    |
+| 1.1     | 2026-06-27 | Sprint 0 baseline finalized and maintenance rules updated |
