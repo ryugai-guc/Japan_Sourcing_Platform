@@ -46,6 +46,8 @@ All newly created documents shall be registered here before becoming part of the
 | SRS-0005 | Lead_Management.md          | Requirement  | 1.0     | Approved |
 | SRS-0006 | Catalog_Management.md       | Requirement  | 1.0     | Approved |
 | SRS-0007 | Discovery_Model.md          | Requirement  | 1.0     | Approved |
+| OBJ-0001 | Supplier.md                 | Object       | 1.0     | Approved |
+| OBJ-0002 | Product.md                  | Object       | 1.0     | Approved |
 | ADR-0001 | Platform_Position.md        | ADR          | 1.0     | Approved |
 | ADR-0002 | Inquiry_First.md            | ADR          | 1.0     | Approved |
 | ADR-0003 | No_Customer_Portal.md       | ADR          | 1.0     | Approved |
