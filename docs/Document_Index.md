@@ -49,6 +49,7 @@ All newly created documents shall be registered here.
 | ADR-0002 | Inquiry_First.md | ADR | 1.0 | Approved |
 | ADR-0003 | No_Customer_Portal.md | ADR | 1.0 | Approved |
 | ADR-0004 | Catalog_First_Strategy.md | ADR | 1.0 | Approved |
+| ADR-0005 | Immutable_Business_Records.md  | ADR|1.0|Approved
 | MOM-0001 | Kickoff.md | Meeting | 1.0 | Approved |
 | MOM-0002 | System_Design.md | Meeting | 1.0 | Approved |
 | MOM-0003 | User_Role_and_Lead.md | Meeting | 1.0 | Approved |
@@ -60,6 +61,9 @@ All newly created documents shall be registered here.
 | OBJ-0003 | Brand.md | Business Object | 1.0 | Approved |
 | OBJ-0004 | Category.md | Business Object | 1.0 | Approved |
 | OBJ-0005 | Catalog.md | Business Object | 1.0 | Approved |
+|OBJ-0006|	Lead.md	Business| Object|	1.0	|Approved|
+|OBJ-0007|	Inquiry.md|	Business Object|	1.0|	Approved|
+|OBJ-0008|	Quotation.md|	Business Object|	1.0|	Approved|
 
 ---
 
